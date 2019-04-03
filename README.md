@@ -4,9 +4,6 @@ An explanation of key concepts in the statistical selection of subgroups, with a
 
 Provided as an [R Shiny app](https://shiny.rstudio.com/), this module provides an introduction to relevant contexts, background reading, interacitve tools, and exercises to explore these topics. 
 
-*TBD* where to get. 
-
-
 # Funding
 
 Data science modules developed by the University of Pittsburgh Biomedical Informatics Training Program with the support of the National Library of Medicine data science supplement to the University of Pittsburgh (Grant # T15LM007059-30S1). 
@@ -42,7 +39,7 @@ Students should have some familiarity with Python programming, including at leas
 
 ## 6. Dataset for the case study
 
-*TBD*
+None applicable - simulated data as shown in distributions in the interface.
 
 ## 7. Skills to be taught
 
