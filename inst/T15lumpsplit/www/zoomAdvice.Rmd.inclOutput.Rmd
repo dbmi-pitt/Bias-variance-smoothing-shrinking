@@ -1,0 +1,28 @@
+<p><div></p>
+
+<script>//Used by zoomAdvice.Rmd
+
+//tags$head(tags$script('
+
+// https://shiny.rstudio.com/articles/js-events.html
+
+copyDims = function(e) {
+    Shiny.onInputChange("innerHeight", window.innerHeight);
+    Shiny.onInputChange("innerWidth", window.innerWidth);
+    //alert('copyDims');
+};
+
+$(document).on('shiny:sessioninitialized', function(event) {
+  alert('shiny:sessioninitialized');
+});
+
+$(document).on("shiny:sessioninitialized", copyDims);
+$(window).resize(copyDims);
+
+//                      '))</script>
+
+<div id="zoomAdvice" class="shiny-text-output" style="display: flex; justify-content: flex-center; color: darkred ; background:  darkred ;&#10;      font-weight:bold; font-size:larger"></div>
+
+<p></div></p>
+
+<script>if (window.MathJax) MathJax.Hub.Queue(["Typeset", MathJax.Hub]);</script>

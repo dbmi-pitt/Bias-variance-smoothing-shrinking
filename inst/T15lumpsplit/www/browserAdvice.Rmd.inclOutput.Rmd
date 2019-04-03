@@ -1,0 +1,7 @@
+<p><div></p>
+
+<div id="browserAdvice" class="shiny-html-output" style="display: flex; justify-content: flex-center; color: darkred ; background:  snow ;&#10;      font-weight:bold; font-size:larger"></div>
+
+<p></div></p>
+
+<script>if (window.MathJax) MathJax.Hub.Queue(["Typeset", MathJax.Hub]);</script>

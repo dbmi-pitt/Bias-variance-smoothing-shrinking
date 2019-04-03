@@ -1,0 +1,9 @@
+<p>The module <em>&quot;Bias, variance, smoothing, and shrinking&quot;</em> begins with the <em>&quot;lump versus split dilemma&quot;</em> sub-module, in the context of a study treating patients and recording responses.  The dilemma: in deciding whether to pursue &quot;personalized medicine&quot; for one small group of patients, how should we use the data from patients in other groups (if at all)? </p>
+
+<p>This example is used as a jumping off point for individual explorations into a web of connected statistical topics important for data scientists. We examine both frequentist and Bayesian approaches. We touch on the role of prior information and the effects of having many additional features.</p>
+
+<p>Along the way, students are asked a few thought questions, and to report on any &quot;Questions&quot; and &quot;Aha&#39;s&quot; (observations, discoveries, delightful connections) that arise. </p>
+
+<p>Those students interested in technical details of derivations or coding can follow links provided to some relevant documents.</p>
+
+<script>if (window.MathJax) MathJax.Hub.Queue(["Typeset", MathJax.Hub]);</script>

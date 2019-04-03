@@ -198,7 +198,10 @@ inclRmd('www/browserAdvice.Rmd')
 
 ```{r in-progress}
 h3("NOTE: this is a work in progress!")
+
 ```
+
+Developed by the University of Pittsburgh Biomedical Informatics Training Program with the support of the National Library of Medicine data science supplement to the University of Pittsburgh (Grant # T15LM007059-30S1).
 
 <a name='section-debugging'> </a>
 
@@ -236,10 +239,11 @@ require(shinyBS)
 *Package:T15lumpsplit  `r packageVersion('T15lumpsplit')`  `r packageDate('T15lumpsplit')`     Author: Roger Day, University of Pittsburgh*
 
 
-# OVERVIEW of this Module  <!-- #title -->
+# OVERVIEW of this Module  <!-- un#title -->
 
 
 ## Contents of this Module  <!-- #title -->
+
 
 ```{r Overview-topic}
 conditionalPanelWithCheckbox(
@@ -1602,7 +1606,7 @@ Thanks for trying out this material. Any thoughts about your experience with thi
 TextQuestion('What worked well, what worked badly, what needs improvement?')
 ```
 
-The code for this module is hosted at ['professorbeautiful/T15lumpsplit'](https://github.com/professorbeautiful/T15lumpsplit).
+The code for this module is hosted at ['dbmi-pitt/Bias-variance-smoothing-shrinking/'](https://github.com/dbmi-pitt/Bias-variance-smoothing-shrinking/).
 
 #  Save your Comments and Answers
 ```{r assembleComments}

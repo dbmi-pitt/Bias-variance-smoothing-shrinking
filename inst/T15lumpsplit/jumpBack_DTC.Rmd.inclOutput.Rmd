@@ -1,0 +1,18 @@
+<p><strong>Jump to other data plots</strong></p>
+
+<p><ul>
+<a id="linkinLink1" onclick="savedYposition=window.scrollY; Shiny.onInputChange(&#39;savedYposition&#39;,&#10;    savedYposition);currentLocationId=&#39;linkinLink1&#39;;&#10;    Shiny.onInputChange(&#39;currentLocationId&#39;,&#10;    currentLocationId);Shiny.onInputChange(&#39;linktext&#39;, &#39;Plot of lump &amp; split points&#39;);" href="#section-a_plotLumpSplitPoints"><font color=blue style="text-decoration: underline">Plot of lump &amp; split points</font></a>
+<br/>
+<a id="linkinLink2" onclick="savedYposition=window.scrollY; Shiny.onInputChange(&#39;savedYposition&#39;,&#10;    savedYposition);currentLocationId=&#39;linkinLink2&#39;;&#10;    Shiny.onInputChange(&#39;currentLocationId&#39;,&#10;    currentLocationId);Shiny.onInputChange(&#39;linktext&#39;, &#39;Posterior distribution for Dr. Who&#39;);" href="#section-a_whoMixturePlot"><font color=blue style="text-decoration: underline">Posterior distribution for Dr. Who</font></a>
+<br/>
+<a id="linkinLink3" onclick="savedYposition=window.scrollY; Shiny.onInputChange(&#39;savedYposition&#39;,&#10;    savedYposition);currentLocationId=&#39;linkinLink3&#39;;&#10;    Shiny.onInputChange(&#39;currentLocationId&#39;,&#10;    currentLocationId);Shiny.onInputChange(&#39;linktext&#39;, &#39;Cross-validation plot&#39;);" href="#section-a_crossvalidationPlot"><font color=blue style="text-decoration: underline">Cross-validation plot</font></a>
+<br/>
+<a id="linkinLink4" onclick="savedYposition=window.scrollY; Shiny.onInputChange(&#39;savedYposition&#39;,&#10;    savedYposition);currentLocationId=&#39;linkinLink4&#39;;&#10;    Shiny.onInputChange(&#39;currentLocationId&#39;,&#10;    currentLocationId);Shiny.onInputChange(&#39;linktext&#39;, &#39;Bivariate contour plot&#39;);" href="#section-a_bivariateContourPlot"><font color=blue style="text-decoration: underline">Bivariate contour plot</font></a>
+<br/>
+<a id="linkinLink5" onclick="savedYposition=window.scrollY; Shiny.onInputChange(&#39;savedYposition&#39;,&#10;    savedYposition);currentLocationId=&#39;linkinLink5&#39;;&#10;    Shiny.onInputChange(&#39;currentLocationId&#39;,&#10;    currentLocationId);Shiny.onInputChange(&#39;linktext&#39;, &#39;Table of estimates&#39;);" href="#section-a_estimateTable"><font color=blue style="text-decoration: underline">Table of estimates</font></a>
+<br/>
+</ul></p>
+
+<p>(Press ESC key to return here.)</p>
+
+<script>if (window.MathJax) MathJax.Hub.Queue(["Typeset", MathJax.Hub]);</script>

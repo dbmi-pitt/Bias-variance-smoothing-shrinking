@@ -1,0 +1,9 @@
+<p><div></p>
+
+<div id="contentsAdviceOutput" class="shiny-html-output"></div>
+
+<p></div></p>
+
+<p><div id="contentsAdvice" class="shiny-html-output"></div></p>
+
+<script>if (window.MathJax) MathJax.Hub.Queue(["Typeset", MathJax.Hub]);</script>
