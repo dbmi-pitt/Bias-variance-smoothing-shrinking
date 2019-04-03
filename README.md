@@ -19,55 +19,57 @@ Data science modules developed by the University of Pittsburgh Biomedical Inform
 
 # Description
 
-## 1 Learning outcomes
+## 1. Learning outcomes
 
 *TBD* 
 
-# 2 Licensing/Restrictions/Access
+# 2. Licensing/Restrictions/Access
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/").
 
-## 3 Target Student Audience
+## 3. Target Student Audience
 
 Upper undergraduate or first-year graduate students.
 
-## 4 Prerequisite Skills and Knowledge Required
+## 4. Prerequisite Skills and Knowledge Required
 
 Students should have some familiarity with Python programming, including at least basic exposure to object-oriented programming.
 
 
-## 5 Domain Problem
+## 5. Domain Problem
 
 *TBD*
 
-## 6 Dataset for the case study
+## 6. Dataset for the case study
 
 *TBD*
 
-## 7 Skills to be taught
+## 7. Skills to be taught
 
-## 7.1 Knowledge Representation 
-
-*TBD*
-
-## 7.2 Computation
+## 7.1. Knowledge Representation 
 
 *TBD*
 
-## 7.3 Visual Analytics
+## 7.2. Computation
 
 *TBD*
 
-## 7.4 Statistical Analyses
+## 7.3. Visual Analytics
+
+*TBD*
+
+## 7.4. Statistical Analyses
 
 *TBD* 
 
-## 7.5 Reproducbility
-
-## 8 Problem solving skills
+## 7.5. Reproducbility
 
 *TBD*
 
-## 9 Reflection
+## 8. Problem solving skills
+
+*TBD*
+
+## 9. Reflection
 
 *TBD*
