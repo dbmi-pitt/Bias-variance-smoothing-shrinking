@@ -25,6 +25,23 @@ There are questions found regularly throughout the document. These can be saved 
 
 You are welcome to revise this module to fit your needs, using the following steps:
 
+## 2.1 Install apprropriate software
+
+You will need to start by installing  [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/), through links on the appropriate sites.
+
+Once you have R running in RStudio, install these packages:
+
+1. Install [shinyJS](https://deanattali.com/shinyjs/basic) by running `install.packages("shinyjs")
+
+2. Install [Bioconductor](https://www.bioconductor.org/install/) by running:
+
+`if (!requireNamespace("BiocManager"))
+    install.packages("BiocManager")
+BiocManager::install()`
+  
+
+
+
 
 
 # Description
