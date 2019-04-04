@@ -137,22 +137,22 @@ None applicable - simulated data as shown in distributions in the interface.
 
 ## 7. Skills to be taught
 
-## 7.1. Knowledge Representation 
+### 7.1. Knowledge Representation 
 
 Not Applicable
 
-## 7.2. Computation
+### 7.2. Computation
 
 Not applicable
 
-## 7.3. Visual Analytics
+### 7.3. Visual Analytics
 
 * Graphs of probabilities of response given membership in various subgroups
 * Probabilitiy densities of mixtures given different distribution assumptions for subgroups
 * Graphs of cross-validation results
 * qvalue plots
 
-## 7.4. Statistical Analyses
+### 7.4. Statistical Analyses
 
 * Estimating probabilities of response given disease for different mixes of response rates across subgroups, including hypothesis-based approaches and Bayes factor
 * Using cross-validation to optimize mixtures
@@ -160,7 +160,7 @@ Not applicable
 * Exploring impacts of various prior assumptions
 * Using Benjamini-Hochberg, empirical Bayes, and qvalue approaches to handle multiple comparisons
 
-## 7.5. Reproducbility
+### 7.5. Reproducbility
 
 Not applicable.
 
