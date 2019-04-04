@@ -35,9 +35,9 @@ Once you have R running in RStudio, install these packages:
 
 2. Install [Bioconductor](https://www.bioconductor.org/install/) by running:
 
-`if (!requireNamespace("BiocManager"))
+```if (!requireNamespace("BiocManager"))
     install.packages("BiocManager")
-BiocManager::install()`
+BiocManager::install()```
   
 
 
