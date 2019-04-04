@@ -25,11 +25,11 @@ There are questions found regularly throughout the document. These can be saved 
 
 You are welcome to revise this module to fit your needs, using the following steps:
 
-## 2.1 Install apprropriate software
+### 2.1 Install apprropriate software
 
 You will need to start by installing  [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/), through links on the appropriate sites.
 
-Once you have R running in RStudio, install these packages:
+Once you have R running in RStudio, go to the R console and follow these steps to configured needed packages:
 
 1. Install [shinyJS](https://deanattali.com/shinyjs/basic) by running `install.packages("shinyjs")
 
@@ -40,10 +40,39 @@ if (!requireNamespace("BiocManager"))
     install.packages("BiocManager")
 BiocManager::install()
 ```
-  
 
+3. Install [qvalue](https://www.bioconductor.org/packages/release/bioc/html/qvalue.html) by running
+```
+BiocManager::install("qvalue", version = "3.8")
+```
 
+### 2.2 Install the code
 
+Run the following commands from the R studio
+
+1. Configure optiosn for Biocondcutor: `options(repos = c(BiocInstaller::biocinstallRepos() )`
+
+2. Install the module from GitHub 
+```
+devtools::install_github(paste0("dbmi-pitt", "/Bias-variance-smoothing-shrinking"),build_vignettes=TRUE)
+```
+
+If you have forked the module to your own repository, replace "dbmi-pitt/" with the name of the account or organization where you forked the code. 
+
+3. Define the following function:
+
+```
+rerun = function(filenum = 1) {
+  file = c("inst/T15lumpsplit/Bias-variance-smoothing-shrinking.Rmd",
+           "inst/T15lumpsplit/Bias-variance-smoothing-shrinking-testing.Rmd")[filenum]
+  rmarkdown::run(file=file,
+    default_file = gsub(".*/", "", file),
+    shiny_args = list(launch.browser = TRUE)
+  )
+}
+```
+
+### 2.3 Revise the code. 
 
 
 # Description
