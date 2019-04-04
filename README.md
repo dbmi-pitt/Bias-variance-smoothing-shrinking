@@ -72,12 +72,45 @@ rerun = function(filenum = 1) {
 }
 ```
 
-### 2.3 Revise the code. 
+### 2.3 Clone the code. 
+
+Clone [the repository](https://github.com/dbmi-pitt/Bias-variance-smoothing-shrinking.git) to a convenient spot on your hard drive.
+
+Once you have done this, go to your R console and use `setwd()` to change to the directory holding the cloned copy of the repository.
+
+## 2.4 Make your changes
+
+Revise the code as needed. The main code can be found in `inst/T15lumpsplit/Bias-variance-smoothing-shrinking.Rmd'. 
+
+If you are using your own git fork of the repository, you might want to push your changes up to your fork.
+
+## 2.5 (Optional) Publish on shinyapps.io
+
+1. Create an account on shinyapps.io
+
+2. Follow the direction on your dashboard page to connect your RStudio instance to shinyapps.io
+
+3. select the file `Bias-variance-smoothing-shrinking.Rmd` in RStudio
+
+3. Press the "Publish" button
 
 
 # Description
 
 ## 1. Learning outcomes
+
+Upon completion of this module, students will be able to:
+
+* Discuss the tradeoffs between "lumping" and "splitting" groups when considering statistical factors such as treatment effects such as differential response between patients.
+
+* Develop parameterized models of probabilities of responses given diseaes across mixed groups 
+
+* Use cross-validation to optimize mixtures 
+
+* Explore the impact of various assumptions for priors. 
+
+* Correct for multiple comparisons
+
 
 *TBD* 
 
@@ -96,7 +129,7 @@ Students should have some familiarity with Python programming, including at leas
 
 ## 5. Domain Problem
 
-*TBD*
+Studies of treatment effects may be faced with challenges in determining when subsetting into smaller groups might, or might not be appropriate. Specifically, given a large group of patients with a low response rate, a specific subgroup with a much higher reponse rate might be strong candidates for the treatment. When is splitting into subgroups approrpiate, when is it not, and how might these differences be statistically modeled?
 
 ## 6. Dataset for the case study
 
@@ -106,28 +139,38 @@ None applicable - simulated data as shown in distributions in the interface.
 
 ## 7.1. Knowledge Representation 
 
-*TBD*
+Not Applicable
 
 ## 7.2. Computation
 
-*TBD*
+Not applicable
 
 ## 7.3. Visual Analytics
 
-*TBD*
+* Graphs of probabilities of response given membership in various subgroups
+* Probabilitiy densities of mixtures given different distribution assumptions for subgroups
+* Graphs of cross-validation results
+* qvalue plots
 
 ## 7.4. Statistical Analyses
 
-*TBD* 
+* Estimating probabilities of response given disease for different mixes of response rates across subgroups, including hypothesis-based approaches and Bayes factor
+* Using cross-validation to optimize mixtures
+* Using Bayesian priors
+* Exploring impacts of various prior assumptions
+* Using Benjamini-Hochberg, empirical Bayes, and qvalue approaches to handle multiple comparisons
 
 ## 7.5. Reproducbility
 
-*TBD*
+Not applicable.
 
 ## 8. Problem solving skills
 
-*TBD*
+Understanding issues in statistical analysis of groups with non-uniform responses to treatments. 
 
 ## 9. Reflection
 
-*TBD*
+* What does it mean to say that patient subgroups differed in their response to a given treatment?
+* What assumptions are involved in such a determination, and how might they be addressed?
+* What impact would these mixtures have on potential recommendations for treatment?
+* How can relevant statistical issues be communicated to physicians and patients to guide informed decision-making? 
