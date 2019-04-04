@@ -14,7 +14,8 @@ Data science modules developed by the University of Pittsburgh Biomedical Inform
 
 ## 1. Published Shiny App
 
-This module can be run as an [R Shiny app](https://shiny.rstudio.com/). Simply open the [page on shinyapps.io](https://dbmipittdatascience.shinyapps.io/Bias-variance-smoothing-shrinking/).
+This module can be run as an [R Shiny app](https://shiny.rstudio.com/). Simply open the [page on shinyapps.io](https://trials.shinyapps.io/Bias-variance-smoothing-shrinking/).
+<!-- https://dbmipittdatascience.shinyapps.io/Bias-variance-smoothing-shrinking/ -->
 
 There are questions found regularly throughout the document. These can be saved to a local text file by pressing links that say "(click to save all responses)." These links will save a file in the local user's download file, entitled  ```_shiny_UserEntries_T15lumpsplit.txt```.which can be submitted to demonstrate completion of the module. 
 
