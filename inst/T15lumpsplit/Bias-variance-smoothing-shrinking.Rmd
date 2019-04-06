@@ -239,13 +239,14 @@ require(shinyBS)
 *Package:T15lumpsplit  `r packageVersion('T15lumpsplit')`  `r packageDate('T15lumpsplit')`     Author: Roger Day, University of Pittsburgh*
 
 
-# OVERVIEW of this Module  <!-- un#title -->
+# OVERVIEW of this Module  <!--#title -->
 
 
 ## Contents of this Module  <!-- #title -->
 
 
-```{r Overview-topic}
+```{r 
+-topic}
 conditionalPanelWithCheckbox(
   labelString = 'Overview of the topic', 
   filename = 'Overview.Rmd', 
