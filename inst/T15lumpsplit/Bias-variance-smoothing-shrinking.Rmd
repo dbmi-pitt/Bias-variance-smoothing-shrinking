@@ -10,7 +10,7 @@ runtime: shiny
 output:
   html_document:
     number_sections: yes
-    toc: yes
+    toc: no
     toc_depth: 6
     toc_float:
       collapsed: no
@@ -245,8 +245,7 @@ require(shinyBS)
 ## Contents of this Module  <!-- #title -->
 
 
-```{r 
--topic}
+```{r topic}
 conditionalPanelWithCheckbox(
   labelString = 'Overview of the topic', 
   filename = 'Overview.Rmd', 

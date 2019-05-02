@@ -1,2 +1,5 @@
 .Rhistory
 inst/T15lumpsplit/rsconnect
+.Rproj.user
+.Rbuildignore
+Bias-variance-smoothing-shrinking.Rproj
