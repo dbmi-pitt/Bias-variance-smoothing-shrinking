@@ -50,7 +50,7 @@ BiocManager::install("qvalue", version = "3.8")
 
 Run the following commands from the R studio
 
-1. Configure optiosn for Biocondcutor: `options(repos = c(BiocInstaller::biocinstallRepos() )`
+1. Configure options for Biocondcutor: `options(repos = c(BiocInstaller::biocinstallRepos() )`
 
 2. Install the module from GitHub 
 ```

@@ -22,35 +22,35 @@ rerun = function()
 
 ### NOTE:  do not include "inst" in the argument.
 
-.installFromGithub = function(package='T15lumpsplit', ...) {
-  options(repos = c(BiocInstaller::biocinstallRepos() ) )
-  devtools::install_github(
-    paste0("professorbeautiful/", package),
-    build_vignettes=TRUE, ...)
-}
+#.installFromGithub = function(package='T15lumpsplit', ...) {
+#  options(repos = c(BiocInstaller::biocinstallRepos() ) )
+#  devtools::install_github(
+#    paste0("professorbeautiful/", package),
+#    build_vignettes=TRUE, ...)
+#}
 
-.deploy = function(app='T15lumpsplit', reInstall=TRUE){
-  ## TODO: first check that the html files are created committed and pushed.
-  if(reInstall)
-    .installFromGithub(app)
-  apps = app
-  for (app in apps) {
-    if(substr(app, 1, 5) == "inst/")
-      warning(".deploy: do not include 'inst' in app name.")
-    setwd(paste0("inst/", app))
-    tryCatch({
-      require("rsconnect")
-      deployApp()
-    },
-    finally={
-      cat("rsconnect::showLogs(appPath = 'inst/" %&% app %&% "')\n")
-      setwd("../..")
-    })
-  }
-}
+#.deploy = function(app='T15lumpsplit', reInstall=TRUE){
+#  ## TODO: first check that the html files are created committed and pushed.
+#  if(reInstall)
+#    .installFromGithub(app)
+#  apps = app
+ # for (app in apps) {
+#    if(substr(app, 1, 5) == "inst/")
+#      warning(".deploy: do not include 'inst' in app name.")
+#    setwd(paste0("inst/", app))
+#    tryCatch({
+#      require("rsconnect")
+#      deployApp()
+#    },
+#    finally={
+#      cat("rsconnect::showLogs(appPath = 'inst/" %&% app %&% "')\n")
+#      setwd("../..")
+#    })
+#  }
+#}
 
-.runDeployed = function(app="T15lumpsplit"){
-  system(paste("open https://trials.shinyapps.io/", app) )
-  cat("rsconnect::showLogs(appPath = 'inst/", app, "')\n")
-}
+#.runDeployed = function(app="T15lumpsplit"){
+#  system(paste("open https://trials.shinyapps.io/", app) )
+#  cat("rsconnect::showLogs(appPath = 'inst/", app, "')\n")
+#}
 
