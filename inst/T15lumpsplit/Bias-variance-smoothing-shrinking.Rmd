@@ -10,7 +10,7 @@ runtime: shiny
 output:
   html_document:
     number_sections: yes
-    toc: yes
+    toc: no
     toc_depth: 6
     toc_float:
       collapsed: no
