@@ -14,7 +14,7 @@ Data science modules developed by the University of Pittsburgh Biomedical Inform
 
 ## 1. Published Shiny App
 
-This module can be run as an [R Shiny app](https://shiny.rstudio.com/). Simply open the [page on shinyapps.io](https://trials.shinyapps.io/Bias-variance-smoothing-shrinking/).
+This module can be run as an [R Shiny app](https://shiny.rstudio.com/). Simply open the [page on shinyapps.io](https://dbmipittdatascience.shinyapps.io/Bias-variance-smoothing-shrinking/).
 <!-- https://dbmipittdatascience.shinyapps.io/Bias-variance-smoothing-shrinking/ -->
 
 There are questions found regularly throughout the document. These can be saved to a local text file by pressing links that say "(click to save all responses)." These links will save a file in the local user's download file, entitled  ```_shiny_UserEntries_T15lumpsplit.txt```.which can be submitted to demonstrate completion of the module. 
@@ -25,13 +25,27 @@ There are questions found regularly throughout the document. These can be saved 
 
 You are welcome to revise this module to fit your needs, using the following steps:
 
-### 2.1 Install apprropriate software
+### Install R and RStudio
 
 You will need to start by installing  [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/), through links on the appropriate sites.
+
+### 2.2  Clone the code. 
+
+1. Clone [the repository](https://github.com/dbmi-pitt/Bias-variance-smoothing-shrinking.git) to a convenient spot on your hard drive.
+
+2. In RStudio, go to File->New Project.
+
+3. Select "Existing Directory" from the "New Project" menu
+
+4. Select the directory where you cloned the repository.
+
+
+### 2.3 Install apprropriate software
 
 Once you have R running in RStudio, go to the R console and follow these steps to configured needed packages:
 
 1. Install [shinyJS](https://deanattali.com/shinyjs/basic) by running `install.packages("shinyjs")
+
 
 2. Install [Bioconductor](https://www.bioconductor.org/install/) by running:
 
@@ -41,28 +55,25 @@ if (!requireNamespace("BiocManager"))
 BiocManager::install()
 ```
 
+3. You will also need to load the older `BiocInsaller":
+```
+source("https://bioconductor.org/biocLite.R")
+biocLite("BiocInstaller")
+```
+4. Set options for BiocInstaller:
+
+```
+options(repos = c(BiocInstaller::biocinstallRepos() ) )
+```
 3. Install [qvalue](https://www.bioconductor.org/packages/release/bioc/html/qvalue.html) by running
 ```
-BiocManager::install("qvalue", version = "3.8")
+biocLite("qvalue")
 ```
 
-### 2.2 Install the code
-
-Run the following commands from the R studio
-
-1. Configure options for Biocondcutor: `options(repos = c(BiocInstaller::biocinstallRepos() )`
-
-2. Install the module from GitHub 
-```
-devtools::install_github(paste0("dbmi-pitt", "/Bias-variance-smoothing-shrinking"),build_vignettes=TRUE)
-```
-
-If you have forked the module to your own repository, replace "dbmi-pitt/" with the name of the account or organization where you forked the code. 
-
-3. Define the following function:
+4.  Define the following function:
 
 ```
-rerun = function(filenum = 1) {
+.rerun = function(filenum = 1) {
   file = c("inst/T15lumpsplit/Bias-variance-smoothing-shrinking.Rmd",
            "inst/T15lumpsplit/Bias-variance-smoothing-shrinking-testing.Rmd")[filenum]
   rmarkdown::run(file=file,
@@ -72,28 +83,16 @@ rerun = function(filenum = 1) {
 }
 ```
 
-### 2.3 Clone the code. 
-
-Clone [the repository](https://github.com/dbmi-pitt/Bias-variance-smoothing-shrinking.git) to a convenient spot on your hard drive.
-
-Once you have done this, go to your R console and use `setwd()` to change to the directory holding the cloned copy of the repository.
-
 ## 2.4 Make your changes
 
 Revise the code as needed. The main code can be found in `inst/T15lumpsplit/Bias-variance-smoothing-shrinking.Rmd'. 
 
-If you are using your own git fork of the repository, you might want to push your changes up to your fork.
+run `rerun as needed to run the 
 
 ## 2.5 (Optional) Publish on shinyapps.io
 
-1. Create an account on shinyapps.io
-
-2. Follow the direction on your dashboard page to connect your RStudio instance to shinyapps.io
-
-3. select the file `Bias-variance-smoothing-shrinking.Rmd` in RStudio
-
-3. Press the "Publish" button
-
+Follow the directions in the [Shinyapps.io - Getting Started] (https://shiny.rstudio.com/articles/shinyapps.html) description to publish your revised code on the public Shinyapps server.
+---
 
 # Description
 
