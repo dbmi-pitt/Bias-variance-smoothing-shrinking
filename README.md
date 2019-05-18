@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/164016584.svg)](https://zenodo.org/badge/latestdoi/164016584)
+
 # Bias-variance-smoothing-shrinking
 
 An explanation of key concepts in the statistical selection of subgroups, with a focus on applications to precision medicine. 
